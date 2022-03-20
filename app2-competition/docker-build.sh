@@ -1,2 +1,2 @@
-docker build -t sowisz/l4s-competition .
+docker build -t l4s-comp .
 
