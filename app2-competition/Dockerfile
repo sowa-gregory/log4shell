@@ -8,5 +8,5 @@ FROM openjdk:8u181-jdk-alpine
 EXPOSE 9000
 RUN mkdir /app
 COPY --from=builder /home/gradle/src/build/libs/*.jar /app/spring-boot-application.jar
-RUN useradd -ms /bin/sh H4ck4Fun4ndPl3a5ur3
+RUN adduser H4ck4Fun4ndPl3a5ur3
 CMD ["java", "-jar", "/app/spring-boot-application.jar"]
