@@ -20,6 +20,7 @@ public class MainController {
         return "Log4Shell app 1:"+Integer.toString(counter++);
     }
 
+    @GetMapping("/test")
     public String bela(Hello hello)
     {
 	return "done";	
